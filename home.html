@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilian's store</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <div id="preloader"></div>  
+    <header>
+            <a href="#" class="logo">Gaia <i class="fas fa-shopping-cart"></i></a>
+            
+            <!-- <div class="header2"> -->
+                <ul class="navbar">
+                    <li><a href="home.html" class="home-active">Home</a></li>
+                    <li><a href="featured.html">Featured</a></li>
+                    <li><a href="item.html">Arrivals</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <div class="icons">
+                <div id="menu-icon" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="item.html"><i class="fas fa-shopping-cart"></i></a>
+                <div id="login-btn" class="fas fa-user"></div>
+                <!-- <a href="#"><i class="fas fa-heart"></i></a> -->
+            </div>  
+    </header>
+        <nav class=" bottom-navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="home.html">Home</a>
+            <a href="featured.html">Featured</a>
+            <a href="item.html">Arrivals</a>
+            <a href="reviews.html" >Reviews</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+            <!-- <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <a href="item.html"><i class="fas fa-shopping-bag" id="cart-icon"></i></a>
+            </div> -->
+     <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Sign In</h3>
+            <span>Username</span>
+            <input type="email" name="" class="box" placeholder="Enter your email" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="Enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Sign in" class="btn">
+            <p>Forget password ? <a href="#">Click Here</a></p>
+            <p>Don't have an account ? <a href="#">Create One</a></p>
+        </form>
+    </div>
+
+    <!-- HOME SECTION!--  --> 
+
+    <section class="home" id="home">
+
+
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    
+                    <span>Classy And Stylish</span>
+                    <h3>Up to 75% off</h3>
+                    <a href="#" class="btn1">Shop now</a>
+                </div>
+           
+                <div class="image">
+                    <a href="#"><img src="img/GUCCIBROWNBAG.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    
+                    <span>Trendy And Lush</span>
+                    <h3>Up to 75% off</h3>
+                    <a href="#" class="btn1">Shop now</a>
+                </div>
+           
+                <div class="image">
+                    <a href="#"><img src="img/LILIAC BAG.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    
+                    <span>Luxury And Poise</span>
+                    <h3>Up to 75% off</h3>
+                    <a href="#" class="btn1">Shop now</a>
+                </div>
+           
+                <div class="image">
+                    <a href="#"><img src="img/GUCCI BIGBAG.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+
+    </section>
+    <div class="brands" >
+        <div class="main-brands" data-aos="zoom-in">
+            <div class="brands-c">
+                <h1>GUCCI</h1>
+            </div>
+
+            <div class="brands-c">
+                <h1>VERSACE</h1>
+            </div>
+
+            <div class="brands-c">
+                <h1>ZARA</h1>
+            </div>
+            
+            <div class="brands-c">
+                <h1>NIKE</h1>
+            </div>
+
+            <div class="brands-c">
+                <h1>CHANEL</h1>
+            </div>
+            <div class="brands-c">
+                <h1>PRADA</h1>
+            </div>
+        </div>
+    </div>
+    <section class="banner-container" data-aos="fade-down">
+        <div class="banner">
+            <img src="img/gucci womam.avif" alt="">
+            <div class="content1">
+                <span class="spanbanner">Limited sales</span>
+                <h3>Up to 50% off</h3> 
+                <h1>Gucci Belt</h1>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="img/gucci man sitting.avif" alt="">
+            <div class="content1">
+                <span class="spanbanner">Limited sales</span>
+                <h3>Up to 50% off</h3> 
+                <h1>Gucci Headband</h1>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="img/gucci glass.avif" alt="">
+            <div class="content1">
+                <span class="spanbanner">Limited sales</span>
+                <h3>Up to 50% off</h3> 
+                <h1>Gucci Glasses</h1>
+                <a href="#" class="btn1">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <iframe width="2" height="10" 
+    src="https://www.youtube.com/KVbrHTRxgsk" title="Youtube video 
+    player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <script type="text/javascript" src="item.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1450,
+            
+        });
+    </script>
+    <script>
+        var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+            loader.style.display = "none";
+    })
+    </script>
+
+</body>
+        
+</html>
+
+   
+    
+   
+   
